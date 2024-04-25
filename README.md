@@ -1,7 +1,16 @@
-# RoboMarkt
-Implementation of a program that solves the problem of deciding where to install stores minimizing the building costs (known as [*Generalized Assignment Problem*](https://en.wikipedia.org/wiki/Generalized_assignment_problem), linear programming problem solved with AMPL) and the problem of deciding the routes of the trucks that periodically refurbish the stores minimizing the driving costs (known as the [*Vehicle Routing Problem*](https://en.wikipedia.org/wiki/Vehicle_routing_problem), solved with an heuristic method to obtain polynomial execution time).
+# StoreNet :convenience_store: :truck:
+StoreNet is a program that addresses two key challenges in retail logistics: the [*Generalized Assignment Problem*](https://en.wikipedia.org/wiki/Generalized_assignment_problem) (GAP), which determines optimal store locations to minimize building costs, and the [*Vehicle Routing Problem*](https://en.wikipedia.org/wiki/Vehicle_routing_problem) (VRP), which optimizes truck routes for store restocking to minimize driving costs.
 
-The full **description of the problem** is available [here](/minimart-2.pdf). 
+## Learn More
 
-A detailed **explanation of the solution** of the problem is available [here](/deliverables/report.pdf). 
-Also, an interactive python **notebook** is also available [here](/RoboMarkt.ipynb), which shows plots to better understand the intermediate steps of the solution of the whole problem.
+Find the **full problem description** [here](/minimart-2.pdf).
+
+Explore the **solution explanation** [here](/deliverables/report.pdf). In solving the GAP, linear programming techniques using **AMPL** were employed. For the VRP, a heuristic method was utilized to achieve polynomial execution time.
+
+An **interactive Python notebook** is available [here](/RoboMarkt.ipynb), offering detailed insights into the solution process.
+
+## Plot Example
+
+<p align="center">
+    <img src="https://github.com/MarcoBendinelli/Optimized-Store-Installation-and-Truck-Routing/assets/79930488/6cafbd9d-6477-4c9b-a659-54c029f59850" style="width:60%;" alt="plot_example">
+</p>
