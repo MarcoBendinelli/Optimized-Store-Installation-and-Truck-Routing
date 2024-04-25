@@ -3,11 +3,11 @@ StoreNet is a program that addresses two key challenges in retail logistics: the
 
 ## Learn More
 
-Find the **full problem description** [here](/minimart-2.pdf).
+Find the **full problem description** [here](/StoreNet_Problem.pdf).
 
 Explore the **solution explanation** [here](/deliverables/report.pdf). In solving the GAP, linear programming techniques using **AMPL** were employed. For the VRP, a heuristic method was utilized to achieve polynomial execution time.
 
-An **interactive Python notebook** is available [here](/RoboMarkt.ipynb), offering detailed insights into the solution process.
+An **interactive Python notebook** is available [here](/StoreNet_Notebook.ipynb), offering detailed insights into the solution process.
 
 ## Plot Example
 
